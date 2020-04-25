@@ -1,6 +1,8 @@
 body{
 	margin: 0;
-	font-family: 'Helvetica', 'Arial', sans-serif; 
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 header{
@@ -28,7 +30,7 @@ header img{
 main{
 	max-width: 800px;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 20px;
 }
 
 main img{
@@ -37,7 +39,25 @@ main img{
 
 h2{
 	font-size: 30px;
+	margin: 40px 0 10px;
 }
-p{
-	font-size: 20px;
+
+a{
+	color: #36B5F2;
+}
+a:hover{
+	color: grey;
+}
+
+footer{
+	background-color: grey;
+	text-align: center;
+	padding: 50px;
+	color: white;
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
 }
